@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -10,7 +10,12 @@ int main()
     double d;
     string s;
 
-    cin >> x >> y >> ch >> f >> d >> s;                                             // extraction
+    double pi = 3.1416445455;
+    cout << pi << "\n";
+    cout << setprecision(2) << fixed << pi;
+
+    cin >>
+        x >> y >> ch >> f >> d >> s;                                                // extraction
     cout << x << " " << y << " " << ch << " " << f << " " << d << " " << s << endl; // insertion
 
     return 0;
