@@ -3,11 +3,12 @@ using namespace std;
 
 int main()
 {
-
-    for (int i = 0; i < 10; i++)
+    int i = 1;
+    do
     {
         printf("%d \n", i);
-    }
+        i++;
+    } while (i < 10);
 
     return 0;
 }
