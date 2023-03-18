@@ -1,3 +1,7 @@
-.exe
-.o
+# Exclude executable files
+*.exe
+
+# Exclude object files
+*.o
+
 .vscode
